@@ -45,3 +45,4 @@ Channel Command | MIDI Channel | Control Number data byte 1 | Value byte 2
 [This link to videos recordings during development stages](https://www.youtube.com/playlist?list=PLkPgAczs7Y9DzX166tG1_RdgPS_pzC003)
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/dtsdFQsVaCL3A-qK/0.jpg)](http://www.youtube.com/watch?v=dtsdFQsVaCL3A-qK)
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
