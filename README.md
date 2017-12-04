@@ -1,4 +1,4 @@
-# leapmotion-midi
+# Leap motion-MIDI
 ![Alt Text](https://static1.squarespace.com/static/57bf65a78419c24a012e3072/t/588ea35f03596e0fcbcb12b4/1498925412894/)
 
 ## This is project involves a leap motion sensor as midi device.
