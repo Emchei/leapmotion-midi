@@ -37,8 +37,8 @@ Channel Command | MIDI Channel | Control Number data byte 1 | Value (Data byte 2
 --- | --- | --- | ---
 0xB0 | 1-15 | 1-127 | 1-127      
 
-Markdown | Less | Pretty
---- | --- | ---
+Channel Command | MIDI Channel | Control Number data byte 1 | Value byte 2
+--- | --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
