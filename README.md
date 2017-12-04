@@ -24,7 +24,6 @@ The parameters computed from the hand data frame are of the following:
 ## Visualizer of hand and finger per video frame
 ![Alt Text](http://blog.leapmotion.com/wp-content/uploads/2014/08/visualizer.jpg) 
 
-
 The parameters computed from the finger data frame are of the following;
 1. Type of finger: recognizing the index finger and middle finger of the user’s finger.
 2. Finger Direction (vector): computing the vector coordinates of the two fingers.
@@ -32,5 +31,11 @@ The purposes of computing these two parameters from each frame captured was to r
 ## The angle between the index and middle fingers
 ![Alt Text](https://d1zyaropqswkf6.cloudfront.net/uploads/library/thumbnail_image/c2822955-971b-4872-b8c1-a8468d293064.gif)
 
+## Musical Instrument Digital Interface(MIDI) protocol
+Computed values from the hands and fingers data frame are mapped into the resolution of 1- 127. This was done because midi protocol used to communicate with the external application Ableton.
+| Channel Command| MIDI Channel | Control Number data byte 1| Value (Data byte 2)|
+| ---------------|:------------:| -------------------------:|-------------------:|
+|0xB0            |1-15          |1-127                      | 1-127              |
 
-[![This link to videos recordings during development stages]](https://www.youtube.com/playlist?list=PLkPgAczs7Y9DzX166tG1_RdgPS_pzC003)
+
+[This link to videos recordings during development stages](https://www.youtube.com/playlist?list=PLkPgAczs7Y9DzX166tG1_RdgPS_pzC003)
