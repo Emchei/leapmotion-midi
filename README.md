@@ -42,7 +42,11 @@ Channel Command | MIDI Channel | Control Number data byte 1 | Value byte 2
 ## Table of the midi protocol used in the C# project
 ![Alt Text](https://github.com/Emchei/leapmotion-midi/blob/master/Table%20of%20the%20commands.PNG)
 
-[This link to videos recordings during development stages](https://www.youtube.com/playlist?list=PLkPgAczs7Y9DzX166tG1_RdgPS_pzC003)
 
 
+## Test Leap motion as midi device at ontdekfabriek Eindhoven
 [![Test Leap motion as midi device at ontdekfabriek Eindhoven](https://img.youtube.com/vi/IlwTdACAnU0/0.jpg)](https://www.youtube.com/watch?v=IlwTdACAnU0 "Test Leap motion as midi device at ontdekfabriek Eindhoven")
+
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+
+[This link to videos recordings during development stages](https://www.youtube.com/playlist?list=PLkPgAczs7Y9DzX166tG1_RdgPS_pzC003)
