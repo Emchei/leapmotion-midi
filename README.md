@@ -10,15 +10,17 @@ The focus of this project is to track hand movement in the field of view (FOV) o
 The track parameters of the Leap motion API were the Hand and Finger data.
 
 The parameters computed from the hand data frame are of the following;
-•	Hand type: first and second hand that depends on the first hand recognized by the leap motion sensor per frame.
-•	Palm position: measuring the center of the user palm from the origin of the leap motion’s coordinate system.
-•	Grab strength: measuring the probability of a grab hand pose or an opened palm.
-•	Palm velocity: measuring how fast the user’s hand move per second.
-•	Palm rotation or orientation: computation of the roll, yaw and pitch angle of a palm with respect to the orientation of a palm in a 3D space. Rotation of a palm from front to back axis are computed for the roll. Side-to-side axis rotation are computed for the pitch, and rotation about the vertical axis are computed for yaw.
+Markup : 1.	Hand type: first and second hand that depends on the first hand recognized by the leap motion sensor per frame.
+2.	Palm position: measuring the center of the user palm from the origin of the leap motion’s coordinate system.
+3.	Grab strength: measuring the probability of a grab hand pose or an opened palm.
+4.	Palm velocity: measuring how fast the user’s hand move per second.
+5.	Palm rotation or orientation: computation of the roll, yaw and pitch angle of a palm with respect to the orientation of a palm in a 3D space. Rotation of a palm from front to back axis are computed for the roll. Side-to-side axis rotation are computed for the pitch, and rotation about the vertical axis are computed for yaw.
 
-![Alt Text](http://blog.leapmotion.com/wp-content/uploads/2014/08/grab-strength.gif) Grab strength
+![Alt Text](http://blog.leapmotion.com/wp-content/uploads/2014/08/grab-strength.gif) 
+Grab strength
 
-![Alt Text](http://blog.leapmotion.com/wp-content/uploads/2014/08/visualizer.jpg) visualizer of hand and finger per video frame
+![Alt Text](http://blog.leapmotion.com/wp-content/uploads/2014/08/visualizer.jpg) 
+visualizer of hand and finger per video frame
 
 The parameters computed from the finger data frame are of the following;
 •	Type of finger: recognizing the index finger and middle finger of the user’s finger.
