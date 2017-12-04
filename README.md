@@ -33,8 +33,8 @@ The purposes of computing these two parameters from each frame captured was to r
 
 ## Musical Instrument Digital Interface(MIDI) protocol
 Computed values from the hands and fingers data frame are mapped into the resolution of 1- 127. This was done because midi protocol used to communicate with the external application Ableton.
-| Channel Command | MIDI Channel | Control Number data byte 1 | Value (Data byte 2) 
----|---| ---|---
+Channel Command | MIDI Channel | Control Number data byte 1 | Value (Data byte 2) 
+--- | --- | --- | ---
 0xB0 | 1-15 | 1-127 | 1-127      
 
 Markdown | Less | Pretty
