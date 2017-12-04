@@ -1,7 +1,7 @@
 # leapmotion-midi
 ![Alt Text](https://static1.squarespace.com/static/57bf65a78419c24a012e3072/t/588ea35f03596e0fcbcb12b4/1498925412894/)
 
-## This is project which involves a leap motion sensor as midi device.
+## This is project involves a leap motion sensor as midi device.
 The leap motion sensor uses optical sensors and infrared light which operates through close proximity with high precision for tracking and recognizing hands and fingers.
 The API released by the Leap motion World allows developers to program and customize some functionality that can performed by the sensor. 
 API stands for Application Program Interface, it contains predefined functions or methods (in the case of C#) that are generally saved as a library.
@@ -39,6 +39,7 @@ Computed values from the hands and fingers data frame are mapped into the resolu
 Channel Command | MIDI Channel | Control Number data byte 1 | Value byte 2
 --- | --- | --- | ---
 0xB0 | 1-15 | 1-127 | 1-127  
-
+## Table of midi protocol implemented
+![Alt Text](leapmotion-midi/Table of the commands.PNG)
 
 [This link to videos recordings during development stages](https://www.youtube.com/playlist?list=PLkPgAczs7Y9DzX166tG1_RdgPS_pzC003)
