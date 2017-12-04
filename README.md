@@ -1,6 +1,7 @@
 # leapmotion-midi
-![Alt Text](https://orcheese.files.wordpress.com/2015/04/data1.png)
-This is project which involves a leap motion sensor as midi device.
+![Alt Text](https://static1.squarespace.com/static/57bf65a78419c24a012e3072/t/588ea35f03596e0fcbcb12b4/1498925412894/)
+
+## This is project which involves a leap motion sensor as midi device.
 The leap motion sensor uses optical sensors and infrared light which operates through close proximity with high precision for tracking and recognizing hands and fingers.
 The API released by the Leap motion World allows developers to program and customize some functionality that can performed by the sensor. 
 API stands for Application Program Interface, it contains predefined functions or methods (in the case of C#) that are generally saved as a library.
@@ -27,7 +28,9 @@ The parameters computed from the hand data frame are of the following:
 The parameters computed from the finger data frame are of the following;
 1. Type of finger: recognizing the index finger and middle finger of the user’s finger.
 2. Finger Direction (vector): computing the vector coordinates of the two fingers.
-The purposes of computing these two parameters from each frame captured was to recognize if the user’s fingers are spread in the FOV of the sensor. The coordinate vectors from the index finger and middle finger are used for calculating the product Euclidean magnitudes (length) and through geometry approach the dot product of the two length are calculated in order to find the arccosine of the angle between the two fingers.  
+The purposes of computing these two parameters from each frame captured was to recognize if the user’s fingers are spread in the FOV of the sensor. The coordinate vectors from the index finger and middle finger are used for calculating the product Euclidean magnitudes (length) and through geometry approach the dot product of the two length are calculated in order to find the arccosine of the angle between the two fingers.
+## The angle between the index and middle fingers
+![Alt Text](https://d1zyaropqswkf6.cloudfront.net/uploads/library/thumbnail_image/c2822955-971b-4872-b8c1-a8468d293064.gif)
 
 
-[This link to videos recordings during development stages] https://www.youtube.com/playlist?list=PLkPgAczs7Y9DzX166tG1_RdgPS_pzC003
+[![This link to videos recordings during development stages]](https://www.youtube.com/playlist?list=PLkPgAczs7Y9DzX166tG1_RdgPS_pzC003)
