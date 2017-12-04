@@ -44,7 +44,7 @@ Channel Command | MIDI Channel | Control Number data byte 1 | Value byte 2
 
 
 
-## Test Leap motion as midi device at ontdekfabriek Eindhoven
+## Testing Leap motion as midi device at ontdekfabriek Eindhoven
 [![Test Leap motion as midi device at ontdekfabriek Eindhoven](https://img.youtube.com/vi/IlwTdACAnU0/0.jpg)](https://www.youtube.com/watch?v=IlwTdACAnU0 "Test Leap motion as midi device at ontdekfabriek Eindhoven")
 
 
