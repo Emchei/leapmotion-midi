@@ -1,4 +1,5 @@
 # leapmotion-midi
+![Alt Text](https://orcheese.files.wordpress.com/2015/04/data1.png)
 This is project which involves a leap motion sensor as midi device.
 The leap motion sensor uses optical sensors and infrared light which operates through close proximity with high precision for tracking and recognizing hands and fingers.
 The API released by the Leap motion World allows developers to program and customize some functionality that can performed by the sensor. 
