@@ -39,7 +39,9 @@ Computed values from the hands and fingers data frame are mapped into the resolu
 Channel Command | MIDI Channel | Control Number data byte 1 | Value byte 2
 --- | --- | --- | ---
 0xB0 | 1-15 | 1-127 | 1-127  
-## Table of midi protocol implemented
+## Table of the midi protocol used in the C# project
 ![Alt Text](https://github.com/Emchei/leapmotion-midi/blob/master/Table%20of%20the%20commands.PNG)
 
 [This link to videos recordings during development stages](https://www.youtube.com/playlist?list=PLkPgAczs7Y9DzX166tG1_RdgPS_pzC003)
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/dtsdFQsVaCL3A-qK/0.jpg)](http://www.youtube.com/watch?v=dtsdFQsVaCL3A-qK)
