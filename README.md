@@ -16,16 +16,16 @@ The parameters computed from the hand data frame are of the following:
 4. Palm velocity: measuring how fast the user’s hand move per second.
 5. Palm rotation or orientation: computation of the roll, yaw and pitch angle of a palm with respect to the orientation of a palm in a 3D space. Rotation of a palm from front to back axis are computed for the roll. Side-to-side axis rotation are computed for the pitch, and rotation about the vertical axis are computed for yaw.
 
-##Grab strength
+## Grab strength
 ![Alt Text](http://blog.leapmotion.com/wp-content/uploads/2014/08/grab-strength.gif)
 
-##Visualizer of hand and finger per video frame
+## Visualizer of hand and finger per video frame
 ![Alt Text](http://blog.leapmotion.com/wp-content/uploads/2014/08/visualizer.jpg) 
 
 
 The parameters computed from the finger data frame are of the following;
-•	Type of finger: recognizing the index finger and middle finger of the user’s finger.
-•	Finger Direction (vector): computing the vector coordinates of the two fingers.
+1. Type of finger: recognizing the index finger and middle finger of the user’s finger.
+2. Finger Direction (vector): computing the vector coordinates of the two fingers.
 The purposes of computing these two parameters from each frame captured was to recognize if the user’s fingers are spread in the FOV of the sensor. The coordinate vectors from the index finger and middle finger are used for calculating the product Euclidean magnitudes (length) and through geometry approach the dot product of the two length are calculated in order to find the arccosine of the angle between the two fingers.  
 
 
