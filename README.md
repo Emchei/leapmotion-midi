@@ -9,18 +9,19 @@ The native interface is also a dynamic library that allows a developer to create
 The focus of this project is to track hand movement in the field of view (FOV) of the leap motion sensor. 
 The track parameters of the Leap motion API were the Hand and Finger data.
 
-The parameters computed from the hand data frame are of the following;
-Markup : 1.	Hand type: first and second hand that depends on the first hand recognized by the leap motion sensor per frame.
-2.	Palm position: measuring the center of the user palm from the origin of the leap motion’s coordinate system.
-3.	Grab strength: measuring the probability of a grab hand pose or an opened palm.
-4.	Palm velocity: measuring how fast the user’s hand move per second.
-5.	Palm rotation or orientation: computation of the roll, yaw and pitch angle of a palm with respect to the orientation of a palm in a 3D space. Rotation of a palm from front to back axis are computed for the roll. Side-to-side axis rotation are computed for the pitch, and rotation about the vertical axis are computed for yaw.
+The parameters computed from the hand data frame are of the following:
+1. Hand type: first and second hand that depends on the first hand recognized by the leap motion sensor per frame.
+2. Palm position: measuring the center of the user palm from the origin of the leap motion’s coordinate system.
+3. Grab strength: measuring the probability of a grab hand pose or an opened palm.
+4. Palm velocity: measuring how fast the user’s hand move per second.
+5. Palm rotation or orientation: computation of the roll, yaw and pitch angle of a palm with respect to the orientation of a palm in a 3D space. Rotation of a palm from front to back axis are computed for the roll. Side-to-side axis rotation are computed for the pitch, and rotation about the vertical axis are computed for yaw.
 
-![Alt Text](http://blog.leapmotion.com/wp-content/uploads/2014/08/grab-strength.gif) 
-Grab strength
+##Grab strength
+![Alt Text](http://blog.leapmotion.com/wp-content/uploads/2014/08/grab-strength.gif)
 
+##Visualizer of hand and finger per video frame
 ![Alt Text](http://blog.leapmotion.com/wp-content/uploads/2014/08/visualizer.jpg) 
-visualizer of hand and finger per video frame
+
 
 The parameters computed from the finger data frame are of the following;
 •	Type of finger: recognizing the index finger and middle finger of the user’s finger.
@@ -28,4 +29,4 @@ The parameters computed from the finger data frame are of the following;
 The purposes of computing these two parameters from each frame captured was to recognize if the user’s fingers are spread in the FOV of the sensor. The coordinate vectors from the index finger and middle finger are used for calculating the product Euclidean magnitudes (length) and through geometry approach the dot product of the two length are calculated in order to find the arccosine of the angle between the two fingers.  
 
 
-This link to videos recordings during development stages; https://www.youtube.com/playlist?list=PLkPgAczs7Y9DzX166tG1_RdgPS_pzC003
+[This link to videos recordings during development stages] https://www.youtube.com/playlist?list=PLkPgAczs7Y9DzX166tG1_RdgPS_pzC003
