@@ -1,5 +1,6 @@
 language: csharp
 solution: sample_leap.sln
+os: windows
 install:
   - sudo apt-get install -y gtk-sharp2
   - nuget restore sample_leap.sln
